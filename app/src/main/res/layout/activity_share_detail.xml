@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".module.share.detail.Share_detailActivity">
+
+    <include layout="@layout/layout_ac_title"
+        android:id="@+id/detail_id"></include>
+
+    <android.support.v4.widget.NestedScrollView
+        android:background="@color/logo_gray_xia"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include layout="@layout/list_item_topic"
+                android:id="@+id/share_detail_topic"
+                android:layout_below="@+id/detail_id"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"/>
+
+            <TextView
+                android:background="@color/logo_gray_qian"
+                android:textColor="@color/logo_gray_shen"
+                android:layout_width="match_parent"
+                android:layout_height="1dp" />
+
+            <com.example.chaozhou.widget.CommentLayout
+                android:id="@+id/tv_comment_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@color/logo_gray_zhong"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/title_left"
+            android:layout_width="60dip"
+            android:layout_height="40dip"
+            android:layout_centerVertical="true"
+            android:text="返回"
+            android:background="#00000000"
+            android:textColor="#ffffff"
+            />
+
+        <TextView
+            android:id="@+id/title_center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="18sp"
+            android:text="title"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/title_right"
+            android:layout_width="60dip"
+            android:layout_height="40dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="确认"
+            android:background="#00000000"
+            android:textColor="#ffffff"
+            android:gravity="center"/>
+    </RelativeLayout>
+
+</LinearLayout>

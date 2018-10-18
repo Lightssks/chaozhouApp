@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".module.personal_Info.Message_Notification.Notification_MsgActivity">
+
+    <include layout="@layout/layout_ac_title"
+        android:id="@+id/titleId" />
+
+
+
+    <ListView
+        android:id="@+id/list_message"
+        android:layout_below="@id/titleId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="0.3dp"/>
+
+
+
+</RelativeLayout>-->
+<android.support.v4.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/swipe_refresh"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/layout_ac_title"
+            android:id="@+id/titleId"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_below="@id/titleId"
+            android:id="@+id/list_message"
+            android:animationCache="false"
+            android:persistentDrawingCache="scrolling"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </RelativeLayout>
+</android.support.v4.widget.SwipeRefreshLayout>

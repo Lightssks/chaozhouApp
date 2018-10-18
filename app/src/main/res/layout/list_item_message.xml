@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/user_image_msg"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginRight="10dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/image8" />
+
+    <TextView
+        android:id="@+id/user_name_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/user_image_msg"
+        android:text="你好，世界"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <ImageButton
+        android:id="@+id/image_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/user_image_msg"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="66dp"
+        android:background="#00000000"
+        android:src="@drawable/logo_good" />
+
+    <TextView
+
+        android:id="@+id/topic_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/user_name_msg"
+        android:layout_marginTop="1dp"
+        android:layout_marginLeft="70dp"
+        android:layout_toRightOf="@id/user_image_msg"
+        android:text="Nemo"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+
+    <TextView
+        android:id="@+id/msg_time_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/user_image_msg"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="left"
+        android:layout_marginEnd="28dp"
+        android:gravity="center"
+        android:text="19:04" />
+
+</RelativeLayout>

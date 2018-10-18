@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/swipe_refresh"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/layout_title"
+            android:id="@+id/titleId"/>
+
+        <ListView
+            android:layout_below="@id/titleId"
+            android:id="@+id/image_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@android:color/darker_gray"
+            android:dividerHeight="0.3dp"/>
+
+         <android.support.design.widget.FloatingActionButton
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/floatingBtu"
+             android:layout_alignParentRight="true"
+             android:layout_alignParentBottom="true"
+             android:src="@drawable/logo_add"
+             android:elevation="6dp"
+             android:layout_marginRight="10dp"
+             app:backgroundTint="#b0b0b0"
+             android:layout_marginBottom="15dp"
+             />
+
+    </RelativeLayout>
+</android.support.v4.widget.SwipeRefreshLayout>

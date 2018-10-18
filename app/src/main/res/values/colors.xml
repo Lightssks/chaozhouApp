@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="logo_gray_shang">#303135</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#fa000000</color>
+    <color name="background">#ffffff</color>
+    <color name="logo_gray_zhong">#393A3F</color>
+    <color name="logo_gray_xia">#ebebeb</color>
+    <color name="sred">#ff4141</color>
+    <color name="green_shen">#60B85D</color>
+    <color name="greem_qian">#CFECBF</color>
+    <color name="gold">#d8ab5c</color>
+    <color name="orange">#ffa500</color>
+    <color name="pink">#ffc0cb</color>
+    <color name="transparent">#00000000</color>
+    <color name="green">#FF34A350</color>
+    <color name="blue_qian">#617d8a</color>
+    <color name="blueTextColor">#ff33b5e5</color>
+    <color name="pressed">#ff0099cc</color>
+    <color name="logo_gray_shen">#444444</color>B0B0B0
+    <color name="logo_gray_qian">#B0B0B0</color>
+    <drawable name="pressedBlue">#ff0099cc</drawable>
+    <drawable name="blue">#ff33b5e5</drawable>
+    <color name="grayBlue">#6633b5e5</color>
+    <color name="gray">#D0D0D0</color>
+    <color name="main_color">#05C1F1</color>
+    <color name="status_color">#a0e2f3</color>
+    <color name="line">#c2c2c2c2</color>
+    <color name="black_text">#333333</color>
+    <color name="black_text2">#666666</color>
+    <color name="blue">#1DA1F2</color>
+</resources>

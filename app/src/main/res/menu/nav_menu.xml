@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+ <group android:checkableBehavior="single">
+  <item android:id="@+id/nav_1"
+        android:icon="@drawable/menu_info"
+      android:listSelector="@android:color/transparent"
+      android:title="个人信息">
+
+  </item>
+    <item android:id="@+id/nav_2"
+        android:icon="@drawable/menu_publish"
+        android:listSelector="@android:color/transparent"
+        android:title="已发表">
+
+    </item>
+
+    <item android:id="@+id/nav_4"
+        android:icon="@drawable/menu_comment"
+        android:listSelector="@android:color/transparent"
+        android:title="消息">
+
+    </item>
+    <item android:id="@+id/nav_5"
+        android:icon="@drawable/menu_setting"
+        android:listSelector="@android:color/transparent"
+        android:title="设置">
+
+    </item>
+ </group>
+</menu>
